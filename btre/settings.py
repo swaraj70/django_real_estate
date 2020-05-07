@@ -25,7 +25,7 @@ SECRET_KEY = 't@4ocu@-pfsy7()q3x2bixed2jvl1jz=n6g=_#vn&t_qklid%c'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['realestatelistings.herokuapp.com']
 
 
 # Application definition
@@ -148,6 +148,6 @@ MESSAGE_TAGS = {
 # Email Config
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'spapadkar@gmail.com'
+EMAIL_HOST_USER = ''
 EMAIL_HOST_PASSWORD = 'gnasher70'
 EMAIL_USE_TLS = True
